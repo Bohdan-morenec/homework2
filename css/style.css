@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/* основной цвет #757575;*/
+/* вторичный цвет #212121;*/
+/* акцент #2196F3;*/
+/* белый #FFFFFF */
+:root {
+    --main--text--color: #757575;
+    --secondary--text--color: #212121;
+    --accent-color:#2196F3;
+    --white--color:#FFFFFF; 
+}
+.link:focus,
+.link:hover {
+    color: var(--accent-color);
+
+}
+.blue {
+    color: var(--accent-color);
+}
+.logo {
+color: var(--secondary--text--color);
+}
