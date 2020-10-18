@@ -3,7 +3,6 @@ body {
     color:var(--main--text--color) ;
     font-size: 14px;
     letter-spacing: 0.03em;
-
 }
 li {
     list-style-type: none;
@@ -13,12 +12,13 @@ li {
 /* акцент #2196F3;*/
 /* белый #FFFFFF */
 /* фон героя #2F303A; */
+/* фон кнопок #F5F4FA; */
 :root {
     --main--text--color: #757575;
     --secondary--text--color: #212121;
     --accent-color:#2196F3;
     --white--color:#FFFFFF;
-    --background--color:#2F303A; 
+    --background--color:#2F303A;
 }
 .link{
     text-decoration: none;
@@ -52,54 +52,29 @@ li {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-.hero {
-    background-color: var(--background--color);
-}
-.hero-text {
-    color: var(--white--color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-.hero-button {
-    width: 200px;
-    height: 50px;
-    background-color: var(--accent-color);
-    border: none;
-}
-.hero-but-text {
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--white--color);
-}
-.ability-heading {
+.a-services {
     color: var(--secondary--text--color);
-    line-height: 0.875px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.ability-text {
-    line-height: 1.71px;
-    letter-spacing: 0.03em;
-}
-.our-classes, .team {
-    color: var(--secondary--text--color);
-    font-size: 36px;
-    line-height: 1.166px;
-    letter-spacing: 0.03em;
-}
-.team-name {
-    color: var(--secondary--text--color);
+    background-color:#F5F4FA; ;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.62;
     letter-spacing: 0.03em;
 }
-.team-text {
+.a-services:hover, 
+.a-services:focus {
+    background-color:var(--accent-color);
+    color: var(--white--color);
+}
+.services {
+    border: 1px solid #EEEEEE;
+}
+.text-photo {
+    text-decoration: none;
+    color: var(--secondary--text--color);
+}
+.text-photo-gray {
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
 .footer {
