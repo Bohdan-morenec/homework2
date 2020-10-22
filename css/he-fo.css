@@ -33,7 +33,7 @@ li {
     
 }
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     color: var(--secondary--text--color);
     text-decoration: none;
     font-weight: bold;
@@ -47,6 +47,9 @@ li {
     line-height: 14px;
     letter-spacing: 0.02em;
 }
+.color-here {
+    color: var(--accent-color);
+} 
 .address-header {
     font-weight: 500;
     line-height: 16px;
@@ -71,7 +74,11 @@ li {
 }
 .text-photo {
     text-decoration: none;
+    font-weight: 700;
     color: var(--secondary--text--color);
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
 }
 .text-photo-gray {
     font-size: 16px;
@@ -80,6 +87,8 @@ li {
 }
 .footer {
     background-color: var(--background--color);
+    font-style: normal;
+
 }
 .footer-logo {
     font-family: Raleway;

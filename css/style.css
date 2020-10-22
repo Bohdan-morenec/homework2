@@ -33,7 +33,7 @@ li {
     
 }
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     color: var(--secondary--text--color);
     text-decoration: none;
     font-weight: bold;
@@ -46,6 +46,9 @@ li {
     font-weight: 500;
     line-height: 14px;
     letter-spacing: 0.02em;
+}
+.color-here {
+    color: var(--accent-color);
 }
 .address-header {
     font-weight: 500;
@@ -104,6 +107,7 @@ li {
 }
 .footer {
     background-color: var(--background--color);
+    font-style: normal;
 }
 .footer-logo {
     font-family: Raleway;
