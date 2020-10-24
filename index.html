@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="photo/">
@@ -11,19 +12,21 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <div class="container header-container">
+      <nav class="navigat">
         <a href="./" class="logo"><span class="blue">Web</span>Studio</a>
-        <ul>
-          <li><a href="#" class="link text-nav color-here">Студия</a></li>
-          <li><a href="page.html" class="link text-nav">Портфолио</a></li>
-          <li><a href="#contacts" class="link text-nav">Контакты</a></li>
+        <ul class="menu">
+          <li class="nav-indent"><a href="#" class="link text-nav color-here">Студия</a></li>
+          <li class="nav-indent"><a href="page.html" class="link text-nav">Портфолио</a></li>
+          <li class="nav-indent"><a href="#contacts" class="link text-nav">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="link address-header">info@devstudio.com</a></li>
-        <li><a href="tel:380961111111" class="link address-header">+38 096 111 11 11</a></li>
+      <ul class="inline-block">
+        <li class="nav-indent"><a href="mailto:info@devstudio.com" class="link address-header">info@devstudio.com</a></li>
+        <li class="nav-indent"><a href="tel:380961111111" class="link address-header">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <main>
         <section class="hero">
@@ -31,6 +34,7 @@
           <button class="hero-button hero-but-text">Заказать услугу</button>
         </section>
         <section>
+          <div class="container">
           <ul>
             <li>
               <h3 class="ability-heading">Внимание к деталям</h3>
@@ -49,8 +53,10 @@
               <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
+          </div>
         </section>
         <section>
+          <div class="container">
           <h2 class="our-classes">Чем мы занимаемся</h2>
           <ul>
             <li>
@@ -63,8 +69,10 @@
               <img src="image/photo/img-2.jpg" width="370" height="294" alt="Дизайн">
             </li>
           </ul>
+          </div>
         </section>
         <section>
+          <div class="container">
           <h2 class="team">Наша команда</h2>
           <ul>
             <li>
@@ -88,9 +96,11 @@
               <p class="team-text">UI Designer</p>
             </li>
           </ul>
+          </div>
         </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="footer-logo"><span class="blue">Web</span>Studio</a>
       <address class="footer-address">
         <ul>
@@ -105,6 +115,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

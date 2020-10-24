@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color:var(--main--text--color) ;
@@ -7,6 +15,13 @@ body {
 }
 li {
     list-style-type: none;
+}
+h1, h2, h3 {
+    margin: 0px;
+}
+ul {
+    padding-left: 0px;
+    margin: 0px;
 }
 /* основной цвет #757575;*/
 /* вторичный цвет #212121;*/
@@ -28,9 +43,29 @@ li {
 .link:hover {
     color: var(--accent-color);
 }
+.header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.navigat {
+    display: inline-flex;
+    align-items: center;
+    margin-right: auto;
+}
 .blue {
     color: var(--accent-color);
-    
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -40,6 +75,7 @@ li {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 90px;
 }
 .text-nav {
     color: var(--secondary--text--color);
@@ -47,6 +83,18 @@ li {
     line-height: 14px;
     letter-spacing: 0.02em;
 }
+.nav-indent {
+    margin-right: 50px;
+}
+.nav-indent:last-child {
+margin-right: 0px;
+}
+.inline-block li {
+    display: inline-block;
+}
+.menu {
+    display: inline-flex;
+}   
 .color-here {
     color: var(--accent-color);
 }
