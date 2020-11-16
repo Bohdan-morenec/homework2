@@ -13,7 +13,10 @@ body {
     letter-spacing: 0.03em;
 
 }
-h1, h2, h3 {
+h1, h2, h3{
+    margin: 0px;
+}
+p {
     margin: 0px;
 }
 ul {
@@ -136,13 +139,40 @@ margin-right: 0px;
     flex-wrap: wrap;
 }
 .ability-item {
-    margin-top: 10px;
-    margin-left: 10px;
-    flex-basis: calc(100% / 4 - 10px);  
+    margin-top: 95px;
+    margin-left: 30px;
+    flex-basis: calc(100% / 4 - 30px);  
+}
+.ability-text {
+    padding-top: 10px;
+    width: 270px;
+    height: 75px;
+}
+.ability-item:nth-child(4n + 1) {
+    margin-left: 0px;
 }
 .ability-text {
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-right: 0px;
+}
+.image-pading {
+    padding-top: 95px;
+}
+.our-classes {
+    margin-bottom: 50px;
+}
+.image {
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-image {
+    margin-top: 50px;
+    margin-left: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+}
+.our-image:nth-child(3n + 1) {
+margin-left: 0px;
 }
 .our-classes, .team {
     color: var(--secondary--text--color);
